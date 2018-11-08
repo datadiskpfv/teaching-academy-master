@@ -83,9 +83,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git@github.com:datadiskpfv/teaching-academy-master.git</connection>
-		<developerConnection>scm:git@github.com:datadiskpfv/teaching-academy-master.git</developerConnection>
-		<url>scm:git@github.com:datadiskpfv/teaching-academy-master.git</url>
+		<connection>scm:git:git@github.com:datadiskpfv/teaching-academy-master.git</connection>
+		<developerConnection>scm:git:git@github.com:datadiskpfv/teaching-academy-master.git</developerConnection>
+		<url>scm:git:git@github.com:datadiskpfv/teaching-academy-master.git</url>
 	</scm>
 
 	<build>
@@ -120,6 +120,11 @@
 						</dependency>
 					</dependencies>
 				</plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5.3</version>
+                </plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
