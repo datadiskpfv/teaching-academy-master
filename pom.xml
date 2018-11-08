@@ -75,8 +75,18 @@
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>			
-		</snapshotRepository>		
+		</snapshotRepository>
+		<repository>
+			<id>nexus_releases</id>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
 	</distributionManagement>
+
+	<scm>
+		<connection>scm:git@github.com:datadiskpfv/teaching-academy-master.git</connection>
+		<developerConnection>scm:git@github.com:datadiskpfv/teaching-academy-master.git</developerConnection>
+		<url>scm:git@github.com:datadiskpfv/teaching-academy-master.git</url>
+	</scm>
 
 	<build>
 		<pluginManagement>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="academy-audit" />
+        <module name="academy-audit-integration" />
+        <module name="academy-audit-interface" />
+        <module name="academy-audit-repository" />
+        <module name="academy-courses" />
+        <module name="academy-courses-integration" />
+        <module name="academy-courses-interface" />
+        <module name="academy-courses-repository" />
+        <module name="academy-registration" />
+        <module name="academy-registration-integration" />
+        <module name="academy-registration-interface" />
+        <module name="academy-registration-repository" />
+        <module name="academy-shared" />
+        <module name="academy-student" />
+        <module name="academy-student-integration" />
+        <module name="academy-student-interface" />
+        <module name="academy-user-details" />
+        <module name="academy-user-details-integration" />
+        <module name="academy-user-details-interface" />
+        <module name="academy-user-details-repository" />
+        <module name="academy-utils" />
+        <module name="academy-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
